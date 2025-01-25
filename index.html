@@ -55,11 +55,16 @@
       justify-content: flex-start;
       border-radius: 20px;
       backdrop-filter: blur(5px);
+      transition: transform 0.5s ease-in-out;
+  }
+
+  .member-box::hover {
+    transform: scale(1.5)
   }
   
   .member-box img {
       border-radius: 50%;
-      margin-right: 15px; /* Separación entre imagen y texto */
+      margin-right: 15px;
   }
   
   .member-box h1 {
